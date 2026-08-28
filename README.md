@@ -1,12 +1,14 @@
 # 博学实验室
 
-> 在 AI 时代，向万物求知。一个不断拓展的跨领域课程库。
+> 在 AI 时代，博学万物。一个不断拓展的跨领域课程库。
 
 ## 项目介绍
 
 博学实验室是一个不断拓展的跨领域课程库。项目利用 AI 协助制作广阔、轻量、注重实践的课程，把分散在不同学科中的知识整理成可以阅读、运行、练习和迁移的学习材料。
 
-这里不追求建立一套固定的专业课程，而是持续探索值得学习的主题：从机器学习、编程与数据，到人文、社会、商业、艺术和日常生活中的各种问题，都可以成为课程。
+这里将持续探索值得学习的主题：从机器学习、编程与数据，到人文、社会、商业、艺术和日常生活中的各种问题，都可以成为课程。
+
+诸君可在此自由、广博的学习。
 
 项目的课程强调：
 
@@ -43,5 +45,36 @@
 - [机器学习全面教程（PDF）](macheine-learning/机器学习全面教程.pdf)：理论知识、核心概念、公式、算法步骤和伪代码；
 - `ch01.ipynb` 至 `ch08.ipynb`：对应章节的代码实现、实验和应用案例；
 - [课程说明](macheine-learning/README.md)：Notebook 与 PDF 的对应关系、学习路线和依赖信息。
+
+### 强化学习全面教程
+
+目录：[reinforcement-learning](reinforcement-learning/)
+
+这是一套以讲义 PDF 为主线、Jupyter Notebook 为配套实践的强化学习课程。PDF 负责解释核心概念、算法原理、数学背景和学习路径；Notebook 则用于运行环境交互、验证实现、观察实验结果，并帮助学习者把理论转化为可执行代码。
+
+#### 课程内容
+
+| 文件 | 主题 | 关键内容 |
+| --- | --- | --- |
+| `utils.ipynb` | 通用工具库 | 环境可视化、训练辅助函数 |
+| `ch01_env_loop.ipynb` | 强化学习入门与环境交互循环 | Agent、Environment、Reward、Policy |
+| `ch02_mdp_frozen_lake.ipynb` | MDP 与 FrozenLake | 状态、动作、转移、奖励 |
+| `ch03_dp.ipynb` | 动态规划 | 值迭代、策略迭代 |
+| `ch04_mc_control.ipynb` | 蒙特卡洛控制 | MC prediction / control |
+| `ch05_td_sarsa_q.ipynb` | TD、SARSA 与 Q-Learning | 时序差分与离线学习 |
+| `ch06_dqn.ipynb` | 深度 Q 网络 | DQN、经验回放、目标网络 |
+| `ch07_reinforce.ipynb` | REINFORCE | 策略梯度 |
+| `ch08_a2c.ipynb` | A2C | Actor-Critic |
+| `ch09_ppo.ipynb` | PPO | 近端策略优化 |
+| `ch10_sac.ipynb` | SAC | 最大熵强化学习 |
+| `ch11_rainbow.ipynb` | Rainbow | DQN 变体与提升方法 |
+| `ch12_rlhf_concept.ipynb` | RLHF 概念 | PPO + RM + KL 惩罚 |
+
+课程资料包括：
+
+- 主线讲义：PDF 讲义为课程主体，负责理论梳理、公式与算法理解；
+- Notebook 代码：`ch01_env_loop.ipynb` 至 `ch12_rlhf_concept.ipynb`，用于配套实验与代码实践；
+- [强化学习课程说明](reinforcement-learning/README.ipynb)：目录结构、依赖环境和学习建议；
+- [通用工具模块](reinforcement-learning/utils.ipynb)：训练与可视化辅助函数。
 
 后续课程将按相同方式持续加入，覆盖更多学科与实践主题。
