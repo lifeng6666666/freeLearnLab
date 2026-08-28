@@ -1,0 +1,9 @@
+numpy>=1.21.0
+pandas>=1.3.0
+scikit-learn>=1.0.0
+matplotlib>=3.5.0
+seaborn>=0.12.0
+xgboost>=1.6.0  # 可选
+torch>=2.0.0   # ch07 需要
+jupyter>=1.0.0
+ipykernel>=6.0.0
