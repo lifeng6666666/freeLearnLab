@@ -2,6 +2,12 @@
 
 这是一个完整的机器学习教程，配套提供 **PDF 教材** 和可运行的 **Jupyter Notebook 代码包**。PDF 负责系统讲解理论知识、核心概念、公式和算法伪代码；Notebook 代码配合 PDF 使用，将这些内容落实为可运行的实现、实验和实际应用。
 
+## 课程特点
+
+- **简明**：每章聚焦一个核心主题，用最短的路径讲清"算法背后直觉、数学公式、怎么实现"；
+- **直观配图讲解**：大量示意图和可视化辅助说明，先建立直觉，再引入数学；
+- **算法一步步实现**：每个算法都在 Notebook 中从零逐步实现，对照 PDF 伪代码逐行落地，并与 scikit-learn 对比验证。
+
 ## 教程资料
 
 - [机器学习全面教程（PDF）](机器学习全面教程.pdf)：提供理论、概念讲解、公式、算法伪代码和学习线索。
@@ -41,17 +47,17 @@ PDF 是教程的理论主线，适合用来理解“为什么这样做”以及�
 
 ## 内容目录
 
-| 文件 | 主题 | 从零实现 | 应用数据 |
-| --- | --- | --- | --- |
-| `utils.ipynb` | 工具函数 | - | - |
-| `ch01.ipynb` | 机器学习概览 | - | 鸢尾花完整流程 |
-| `ch02.ipynb` | 线性回归 | `MyLinearRegression` | 加州房价 |
-| `ch03.ipynb` | 决策树 | `MyDecisionTreeClassifier` | 贷款审批 |
-| `ch04.ipynb` | 聚类 | `MyKMeans` | 客户分群、图像压缩、异常检测 |
-| `ch05.ipynb` | 集成学习 | `MyRandomForest`、`MyAdaBoost` | 乳腺癌分类 |
-| `ch06.ipynb` | 支持向量机（SVM） | `MySVM`（线性、hinge loss） | 手写数字 |
-| `ch07.ipynb` | 神经网络 | `MyMLP`（手写反向传播） | MNIST、手写数字 |
-| `ch08.ipynb` | 降维 | `MyPCA` | t-SNE 可视化 |
+| 文件            | 主题         | 从零实现                          | 应用数据           |
+| ------------- | ---------- | ----------------------------- | -------------- |
+| `utils.ipynb` | 工具函数       | -                             | -              |
+| `ch01.ipynb`  | 机器学习概览     | -                             | 鸢尾花完整流程        |
+| `ch02.ipynb`  | 线性回归       | `MyLinearRegression`          | 加州房价           |
+| `ch03.ipynb`  | 决策树        | `MyDecisionTreeClassifier`    | 贷款审批           |
+| `ch04.ipynb`  | 聚类         | `MyKMeans`                    | 客户分群、图像压缩、异常检测 |
+| `ch05.ipynb`  | 集成学习       | `MyRandomForest`、`MyAdaBoost` | 乳腺癌分类          |
+| `ch06.ipynb`  | 支持向量机（SVM） | `MySVM`（线性、hinge loss）        | 手写数字           |
+| `ch07.ipynb`  | 神经网络       | `MyMLP`（手写反向传播）               | MNIST、手写数字     |
+| `ch08.ipynb`  | 降维         | `MyPCA`                       | t-SNE 可视化      |
 
 ## 学习路线
 
@@ -91,3 +97,4 @@ pip install -r requirements.txt
 - 每章的“从零实现”代码是核心，建议结合 PDF 中的公式和伪代码逐行阅读。
 - 对比实验用于观察手写实现与工业实现之间的差异。
 - 真实应用部分展示算法在实际问题中的使用方式与常见注意事项。
+
