@@ -79,4 +79,32 @@
 - [强化学习课程说明](reinforcement-learning/README.md)：目录结构、依赖环境和学习建议；
 - [通用工具模块](reinforcement-learning/utils.ipynb)：训练与可视化辅助函数。
 
+### 从零到一实现 ChatGPT（基于 nanochat）
+
+目录：[nanochat-tutorial](nanochat-tutorial/)
+
+这是一套讲解现代大语言模型（LLM）全栈实现的深度课程，以开源项目 [karpathy/nanochat](https://github.com/karpathy/nanochat)（约 7K 行代码）为代码底座，从分词、数据、架构一直讲到预训练、微调、强化学习、推理和评估。课程覆盖 11 章内容，包含完整公式推导、19 张技术示意图和核心脚本逐行精读，并配有可在小模型上完成的扩展实验。
+
+课程特点：**全栈视角**（一个真实可运行的完整 ChatGPT 训练管线）、**公式推导完整**、**代码逐行精读**、**低成本可复现**（约 $48、1.5 小时即可跑通全流程）。
+
+#### 章节一览
+
+| 章节 | 主题 | 关键内容 |
+| --- | --- | --- |
+| 第一章 | 导论 | 为什么是 nanochat、全栈实现路线图 |
+| 第二章 | 分词器 | BPE 的工程实现、中文分词挑战 |
+| 第三章 | 数据集工程 | 从 FineWeb 到 ClimbMix |
+| 第四章 | 模型架构 | 现代 Transformer 的所有细节 |
+| 第五章 | 预训练 | Scaling Laws 与 Muon 优化器 |
+| 第六章 | 监督微调 | 数据加载与 SFT |
+| 第七章 | 强化学习 | 从 PPO 到 GRPO 的简化路径 |
+| 第八章 | 推理引擎 | KV Cache、Flash Attention 与工具调用 |
+| 第九章 | 评估体系 | CORE、ChatCORE、BPB 与 pass@k |
+| 第十章 | 扩展实验 | 四类动手实践 |
+| 第十一章 | 进阶路径 | 论文阅读路径与进一步学习 |
+
+课程资料包括：
+
+- [从零到一实现 ChatGPT：基于 nanochat 的深度课程（PDF）](nanochat-tutorial/从零到一实现ChatGPT_基于nanochat的深度课程.pdf)：理论推导、架构讲解、脚本精读与实验设计。
+
 后续课程将按相同方式持续加入，覆盖更多学科与实践主题。
