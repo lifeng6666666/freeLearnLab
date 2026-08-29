@@ -76,6 +76,7 @@
 
 - 主线讲义：PDF 讲义为课程主体，负责理论梳理、公式与算法理解；
 - Notebook 代码：`ch01_env_loop.ipynb` 至 `ch12_rlhf_concept.ipynb`，用于配套实验与代码实践；
+- [强化学习课程说明](reinforcement-learning/README.ipynb)：目录结构、依赖环境和学习建议；
 - [通用工具模块](reinforcement-learning/utils.ipynb)：训练与可视化辅助函数。
 
 后续课程将按相同方式持续加入，覆盖更多学科与实践主题。
